@@ -1,0 +1,58 @@
+/* EXERCICE 0 */
+
+.mother0 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+}
+
+.daughter0 {
+    background-color: orange;
+    border:1px solid black;
+}
+
+/* EXERCICE 1 */
+.mother1 {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daughter1 {
+    background-color: orange;
+    border: 4px solid black;
+    margin:5px
+}
+
+/* EXERCICE 2 */
+.mother2 {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daughter2 {  
+    background-color: orange;
+    border: 4px solid black;
+    margin:5px;
+    display: flex;
+    gap:10px;
+    padding: 10px;
+}
+
+.granddaughter2 {
+    background-color: yellow;
+    border: 2px solid black;
+
+}
